@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+.container {
+    width: 70%;
+    display: flex;
+    margin-inline: auto;
+    gap: 20px;
+    flex-direction: row;
+} 
+
+.left-column {
+    width: 40%;
+}
+
+.img-box img {
+    margin-top: 30px;
+    height: 450px;
+}
+.right-column {
+    width: 60%;
+}
+
+.inline {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.inline1 {
+    margin-top: 30px;
+    font-size: x-large
+}
+
+.paragraph1 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.paragraph2 {
+    margin-top: 20px;
+}
+ 
